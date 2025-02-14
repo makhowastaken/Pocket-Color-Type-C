@@ -5,7 +5,7 @@ A simple USB Type-C mod to replace the OEM DC jack on Game Boy Pockets, Game Boy
 
 This repo includes the board files for the USB Type-C power port, cut jigs for some console shells, and some other misc PoCo mod files. Installing a [GBPP](https://github.com/marshallh/gbpp) but don't want to use the OEM DC jack for charging? This is the right place!
 
-
+Also, I didn't proofread this shit at all so expect typos. I may or may not fix them especially since it took me four years to actually make this documentation. 
 
 ---
 
@@ -36,11 +36,12 @@ Otherwise, here are steps to install:
 * Tape the boards together temporarily so you may flip the Pocket over and solder to the bottom.
 * Use a LOT of solder for one hole to tack the board down and remove the tape. You need to ensure that enough solder is in the hole to reach the board on the other side and wet to the pads. 
 * Remove the tape to ensure you have a solid joint. Repeat steps if the board comes off with the tape. 
+* Optional step, you may add component legs (e.g. trimmed off a THT LED or resistor or the like) to three of the five pads for additional structural support as solder alone may fail over time. Otherwise, the holes can be used as an indicator that solder has been wet to both boards. 
 * Solder the other four pads to the holes. 
 * Now you can install the resistors. The four pads are directly behind the USB Type-C port and one of them overlaps with one of the mounting pads for the board. 
 * Ground is connected through the board, 5v may be tapped either from the on-board fuse or you may pull from the biggest pad in the middle. 
 
-Ensure the port is aligned properly before using the cut jig to cut a hole in your shell!
+Ensure the port is aligned properly before using the cut jig to cut a hole in your shell! Also, do not forget to trim the OEM DC jack supports from the housing too as the wider USB Type-C port will not fit between them. 
 
 <img src="media\lps_poco.jpg" width="50%" height="50%">
 
